@@ -19,7 +19,7 @@ git clone https://github.com/your-username/ros2_course_packages.git
 To run the examples provided in each package, build the packages using the following command:
 
 ```bash
-cd ros2_course_packages
+cd ~/ros2_ws
 colcon build
 ```
 
