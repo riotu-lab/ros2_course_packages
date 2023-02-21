@@ -48,7 +48,7 @@ class TurtlesimMover(Node):
             msg.angular.z=0.0 
             self.publisher.publish(msg)
             print('The Robot Has Stopped')
-            rclpy.shutdown()
+            rclpy.shutdown() 
 
 
         #if (time_spent>5.0):
