@@ -20,7 +20,7 @@ class RobotPose:
         return self.theta
 
     def set_theta(self, theta):
-        self.theta = theta
+        self.theta = theta 
 
     def get_pose(self):
         return self

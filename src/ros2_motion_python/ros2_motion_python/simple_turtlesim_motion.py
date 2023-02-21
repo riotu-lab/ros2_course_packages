@@ -45,7 +45,7 @@ class TurtlesimMover(Node):
         print('Traveled Distance: ',traveled_distance)
         if (traveled_distance>15.0):
             msg.linear.x=0.0
-            msg.angular.z=0.0
+            msg.angular.z=0.0 
             self.publisher.publish(msg)
             print('The Robot Has Stopped')
             rclpy.shutdown()
