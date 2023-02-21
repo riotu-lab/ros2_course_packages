@@ -36,7 +36,7 @@ ros2 run ros2_essential_cpp talker
 ```
 
 # Maintainers
-This repository is maintained by the CS460 course instructors. If you have any questions or suggestions, please feel free to contact us.
+This repository is maintained by Prof. Anis Koubaa. If you have any questions or suggestions, please feel free to contact us.
 
 # Contributing
 If you find any issues with the packages or would like to contribute, please create a new issue or pull request on the GitHub repository.
