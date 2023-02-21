@@ -1,3 +1,10 @@
+# This file is part of ros2_motion_python package.
+#
+# Copyright (c) 2023 Anis Koubaa.
+# All rights reserved.
+#
+# This work is licensed under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+# International Public License. See https://creativecommons.org/licenses/by-nc-sa/4.0/ for details.
 class RobotPose:
     def __init__(self, x=0.0, y=0.0, theta=0.0):
         self.x = x

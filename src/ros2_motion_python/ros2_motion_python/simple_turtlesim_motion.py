@@ -1,3 +1,10 @@
+# This file is part of ros2_motion_python package.
+#
+# Copyright (c) 2023 Anis Koubaa.
+# All rights reserved.
+#
+# This work is licensed under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+# International Public License. See https://creativecommons.org/licenses/by-nc-sa/4.0/ for details.
 import rclpy 
 from rclpy.node import Node
 from geometry_msgs.msg import Twist 
