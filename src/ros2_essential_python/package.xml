@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2_essential_python</name>
+  <version>0.0.0</version>
+  <description>This package contains Python ROS2 code for learning purposes</description>
+  <maintainer email="anis.koubaa@gmail.com">Anis Koubaa</maintainer>
+  <license>GNU Public License</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>ros2_interfaces_cpp</depend>
+
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
