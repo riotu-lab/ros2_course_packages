@@ -1,5 +1,5 @@
 /*
- * Copyright (c) [year] [your name]
+ * Copyright (c) 2023 Anis Koubaa.
  *
  * Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike
  * 4.0 International License.

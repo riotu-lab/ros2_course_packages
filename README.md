@@ -42,4 +42,4 @@ This repository is maintained by the CS460 course instructors. If you have any q
 If you find any issues with the packages or would like to contribute, please create a new issue or pull request on the GitHub repository.
 
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
