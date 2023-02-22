@@ -13,7 +13,11 @@ To use these packages, you need to have ROS2 installed on your system. Follow th
 Then, clone this Git repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/ros2_course_packages.git
+cd ~/ros2_ws/src
+git clone https://github.com/riotu-lab/ros2_course_packages.git
+cd ~/ros2_ws/
+mv src/ros2_course_packages/* src/
+rm -r src/ros2_course_packages
 ```
 # Running Examples
 To run the examples provided in each package, build the packages using the following command:
