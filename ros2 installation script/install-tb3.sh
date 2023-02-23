@@ -67,7 +67,7 @@ cd ~/$ROS2_WORKSPACE/
 colcon build --symlink-install
 
 echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
-echo 'export TURTLEBOT3_MODEL=burger' >> ~/.bashrc
+echo 'export TURTLEBOT3_MODEL=waffle' >> ~/.bashrc
 echo 'export svga_vgpu10=0'
 source ~/.bashrc
 echo "success installing Turtlebot3 on ROS2 $CHOOSE_ROS_DISTRO"
