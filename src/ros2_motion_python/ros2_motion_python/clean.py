@@ -29,7 +29,7 @@ class RoboCleaner(Node):
         self.velocity_publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
         self.pose_subscriber = self.create_subscription(Pose, "/turtle1/pose", self.pose_callback, 10)
         timer_period = 0.01
-        
+        time.sleep(1.0)
         self.pose = RobotPose()
         rclpy.spin_once(self)
         self.client = self.create_client(Empty, 'reset')
@@ -223,7 +223,6 @@ class RoboCleaner(Node):
         return math.sqrt(((destination.x-start.x)**2 + (destination.y-start.y)**2))
 
     def menu (self):
-        rclpy.spin_once(self)
         print('|----------------------------------|')
         print('| 1: Move')
         print('| 2: Rotate')
@@ -239,6 +238,7 @@ class RoboCleaner(Node):
 
 
     def run_app(self):
+            rclpy.spin_once(self)
             while True:
                 choice = self.menu()
                 if choice == '1':
