@@ -1,5 +1,5 @@
 # ROS2 Humble and Turtlebot3 Installation Scripts
-These scripts automate the installation of ROS2 Humble and Turtlebot3 in ROS2 Humble. The installation is done using one script that installs both packages.
+These scripts automate the installation of ROS2 Humble and Turtlebot3 in ROS2 Humble. 
 
 # Prerequisites
 These scripts are designed to run on Ubuntu. Before running the script, please make sure that:
