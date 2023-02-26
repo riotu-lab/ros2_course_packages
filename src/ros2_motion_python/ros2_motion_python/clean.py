@@ -79,7 +79,7 @@ class RoboCleaner(Node):
         print('Start Rotating the Robot ...')
         rclpy.spin_once(self)
         twist_msg=Twist()
-        angular_speed_radians=abs(angular_speed_radians) #make sure it is a positive relative angle
+        angular_speed_degree=abs(angular_speed_degree) #make sure it is a positive relative angle
         if (angular_speed_degree>30) :
             print (angular_speed_degree)
             print('[ERROR]: The rotation speed must be lower than 0.5!')
