@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'mover= ros2_motion_python.simple_turtlesim_motion:main',
             'cleaner= ros2_motion_python.clean:main',
+            'tb3_cleaner= ros2_motion_python.tb3_clean:main',
         ],
     },
 )
