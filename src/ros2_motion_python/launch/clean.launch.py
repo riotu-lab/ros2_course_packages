@@ -6,7 +6,7 @@ def generate_launch_description():
         Node(
             package='turtlesim',
             executable='turtlesim_node',
-            name='sim'
+            name='sim' 
         ),
         Node(
             package='ros2_motion_python',
