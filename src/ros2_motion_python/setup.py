@@ -20,7 +20,7 @@ setup(
     maintainer='Anis Koubaa',
     maintainer_email='anis.koubaa@gmail.com',
     description='Learn about ROS2 motion',
-    license='GNU',
+    license='Creative Commons Non-Commercial (CC-NC)',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
