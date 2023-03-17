@@ -26,6 +26,7 @@ setup(
             'scan_info_asyncio= ros2_laser_python.scan_info_asyncio:main',
             'scan_info_executors= ros2_laser_python.scan_info_executors:main',
             'move_stop_obstacle= ros2_laser_python.move_stop_obstacle:main',
+            'obstacle_avoidance_pid= ros2_laser_python.obstacle_avoidance_pid:main',
         ],
     },
 )
