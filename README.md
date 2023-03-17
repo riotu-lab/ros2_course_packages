@@ -3,9 +3,10 @@ This Git repository contains the packages of the ROS2 course provided in CS460 c
 
 * `ros2_essential_cpp`: This package contains essential concepts and examples of ROS2 using C++ language.
 * `ros2_essential_python`: This package contains essential concepts and examples of ROS2 using Python language.
-* `ros2_interfaces_cpp`: This package contains examples of defining and using custom ROS2 interfaces using C++ language.
-* `ros2_motion_cpp`: This package contains examples of robot motion control using ROS2 and C++ language.
-* `ros2_motion_python`: This package contains examples of robot motion control using ROS2 and Python language.
+* `ros2_interfaces_cpp`: This package contains tutorials of defining and using custom ROS2 interfaces using C++ language.
+* `ros2_motion_cpp`: This package contains tutorials of robot motion control using ROS2 and C++ language.
+* `ros2_motion_python`: This package contains tutorials of robot motion control using ROS2 and Python language.
+* `ros2_laser_python`: This package contains tutorials on laser scanners with ROS2 in Python.
 
 # Getting Started
 To use these packages, you need to have ROS2 installed on your system. Follow the ROS2 installation guide to install ROS2 on your system.
