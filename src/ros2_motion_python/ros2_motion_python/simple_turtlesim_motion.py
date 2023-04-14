@@ -13,7 +13,7 @@ from std_srvs.srv import Empty
 
 class TurtlesimMover(Node):
 
-    LINEAR_SPEED = 0.0
+    LINEAR_SPEED = 0.2
     ANGULAR_SPEED = 0.3
 
     def __init__(self):
